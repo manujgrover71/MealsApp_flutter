@@ -6,7 +6,7 @@ enum Complexity {
   Hard,
 }
 
-enum Affordable {
+enum Affordability {
   Affordable,
   Pricey,
   Luxurious,
@@ -25,14 +25,14 @@ class Meal {
 
   final Complexity complexity;
 
-  final Affordable affordable;
+  final Affordability affordability;
 
   final bool isGlutenFree;
-  final bool isLactosFree;
+  final bool isLactoseFree;
   final bool isVegan;
   final bool isVegetarian;
 
-  Meal({
+  const Meal({
     @required this.id,
     @required this.title,
     @required this.imageUrl,
@@ -41,9 +41,9 @@ class Meal {
     @required this.steps,
     @required this.duration,
     @required this.complexity,
-    @required this.affordable,
+    @required this.affordability,
     @required this.isGlutenFree,
-    @required this.isLactosFree,
+    @required this.isLactoseFree,
     @required this.isVegan,
     @required this.isVegetarian,
   });
