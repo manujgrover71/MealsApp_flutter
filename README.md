@@ -1,16 +1,13 @@
-# Meals_app
+# Meals App
 
-A new Flutter project.
+A Beginner Meals app using Flutter and external APIs. Feel Free to checkout the App.
 
-## Getting Started
+## How to Install and Test the app?
 
-This project is a starting point for a Flutter application.
+Clone the whole repository into your local machine.
 
-A few resources to get you started if this is your first Flutter project:
+Open using [Visual Studio Code](https://code.visualstudio.com/) / [Android Studios](https://developer.android.com/studio) / Xcode(for Mac only).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Connect your device and hit the **RUN** command.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Feel Free to test out the app and open any issue(if found!).
